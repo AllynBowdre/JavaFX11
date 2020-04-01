@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hellofx.Controller">
+    <children>
+      <AnchorPane>
+         <children>
+              <Label fx:id="label" layoutX="28.0" layoutY="24.0" text="You have clicked me this many times:" />
+            <Button fx:id="btnClickMe" layoutX="78.0" layoutY="131.0" mnemonicParsing="false" onAction="#clicked" text="Click me!" />
+            <Label fx:id="lblCount" layoutX="233.0" layoutY="24.0" prefHeight="17.0" prefWidth="48.0" text="0" />
+         </children>
+      </AnchorPane>
+    </children>
+</StackPane>
